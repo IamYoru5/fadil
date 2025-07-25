@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pemilihan Ketua OSIS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pemilihan Ketua OSIS</h1>
+    <div id="candidates">
+      <div class="candidate">
+        <h2>Calon 1: Ahmad</h2>
+        <button onclick="vote('Ahmad')">Pilih</button>
+      </div>
+      <div class="candidate">
+        <h2>Calon 2: Budi</h2>
+        <button onclick="vote('Budi')">Pilih</button>
+      </div>
+      <div class="candidate">
+        <h2>Calon 3: Citra</h2>
+        <button onclick="vote('Citra')">Pilih</button>
+      </div>
+    </div>
+
+    <div id="result">
+      <h2>Hasil Pemilihan:</h2>
+      <p>Ahmad: <span id="vote-Ahmad">0</span></p>
+      <p>Budi: <span id="vote-Budi">0</span></p>
+      <p>Citra: <span id="vote-Citra">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
